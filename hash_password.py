@@ -98,6 +98,7 @@ if __name__  == "__main__":
     # print(does_sha256_match_password(hashed_password, password))
     # print(does_sha256_match_password_and_salt(hashed_password_w_salt, password, custom_salt))
     
+    ### Usages: This generate a csv file by reading in the 10k txt with the most common passwords and generate the hash and output to a csv.
     generate_csv_of_common_hashes(get_dict_with_common_password_hashes(), FILE_NAME_10K_MOST_COMMON_PASSWORDS_HASHED)
     
 
